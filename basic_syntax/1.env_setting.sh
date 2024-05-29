@@ -59,5 +59,7 @@ git push origin master
 
 # 사용자 지정 방법
 # 전역적 사용자(이름, email) 지정
+git config --global user.name "Choi-Moori"
+git config --global user.email "이메일"
 
 # 지역적 사용자(이름, email) 지정
