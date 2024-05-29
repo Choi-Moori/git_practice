@@ -63,3 +63,10 @@ git config --global user.name "Choi-Moori"
 git config --global user.email "이메일"
 
 # 지역적 사용자(이름, email) 지정
+# 현재 레파지토리에 한해서만 사용자 변경
+git config --local user.name "Choi-Moori"
+git config --local user.email "이메일"
+
+# config 내용조회
+# repository, 이름, email 등...
+git config --list
