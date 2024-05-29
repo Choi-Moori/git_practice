@@ -37,3 +37,27 @@ git push origin branch명
 
 
 # 2.제3자인증(oauth) 방식()
+
+
+##########################################
+# 레포 kimseonguk197 깃 주소에서 아무거나 repo로 가져가기
+# 타인 레포 clone 방법 2가지
+# 1) commit이력 유지한채 가져가기 
+#별도의 add, commit 필요 없이 바로 push 가능
+ex) git clone 타인레포주소
+ex) git remote set-url origin 내레포주소
+ex) git push origin master
+# 2) commit ID 전부 없애고 내 레포 인것처럼 가져가기
+git clone 타인레포주소
+ex) 폴더에 들어가 .git 파일 삭제
+ex) 폴더에 들어가기.
+git init
+git remote add origin 내레포주소
+git add .
+git commit -m "msg"
+git push origin master
+
+# 사용자 지정 방법
+# 전역적 사용자(이름, email) 지정
+
+# 지역적 사용자(이름, email) 지정
