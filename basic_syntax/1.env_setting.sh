@@ -70,3 +70,11 @@ git config --local user.email "이메일"
 # config 내용조회
 # repository, 이름, email 등...
 git config --list
+# 사용자 이름 조회
+git config name
+# 사용자 이메일 조회
+git config email
+
+# git ignore 파일 실습
+# 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 저장
+

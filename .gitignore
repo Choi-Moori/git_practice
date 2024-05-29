@@ -1,0 +1,6 @@
+# 보안상 올리면 안되는 파일들 
+# build 결과물들
+# 로그파일
+
+ignore_test.txt
+my_test.txt
