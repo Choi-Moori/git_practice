@@ -77,4 +77,3 @@ git config email
 
 # git ignore 파일 실습
 # 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 저장
-

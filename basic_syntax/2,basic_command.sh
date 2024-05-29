@@ -39,3 +39,14 @@ git checkout 커밋id
 git check master
 
 # git pull은 원격의 변경사항을 local로 다운로드
+git pull origin 브랜치명
+
+# git 작업 취소
+# working directory에서의 취소
+git checkout .
+# staging area에서의 취소
+git reset
+# commit 이후의 취소
+git reset HEAD~1
+# push 이후의 취소
+git revert 커밋ID
