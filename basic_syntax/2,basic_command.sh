@@ -66,7 +66,9 @@ git diff A브랜치 B브랜치
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 # 비교  git pull origin master 와 git fetch origin master 비교
 # 모든 브랜치 정보 fetch
-git fetch --alls
+git fetch --all
+# 
+git fetch --all --prune
 
 # 원격에 변경을 가해서 commit
 git fetch origin master
@@ -108,3 +110,5 @@ git branch -D 브랜치명
 git checkout -b 브랜치명
 
 # feature 브랜치 생명 주기 -> merge가 끝나는 순간 사라져야될 브랜치
+# local 시작 -> main만 최신화 -> git checkout -b 브랜치명
+# 원격에서 시작 -> git fetch --all -> git checkout -b feature1 origin/feature1
