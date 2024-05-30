@@ -60,4 +60,9 @@ git revert 커밋ID
 # A를 기준으로 B가 어떤 변경이 있는지를 비교
 git diff A B
 git diff commitId1 CommitId2
-git diff A브랜치 B브랜치   
+git diff A브랜치 B브랜치
+
+# 원격에 변경을 가해서 commit
+git fetch origin master
+git log
+git log --all
