@@ -94,3 +94,11 @@ git checkout 브랜치명
 
 # 브랜치 목록 조회
 git branch
+
+# 브랜치 삭제
+git branch -D 브랜치명
+
+# 브랜치 생성과 전환 동시에
+git checkout -b 브랜치명
+
+# feature 브랜치 생명 주기 -> merge가 끝나는 순간 사라져야될 브랜치
